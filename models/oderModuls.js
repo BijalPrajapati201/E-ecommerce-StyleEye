@@ -75,9 +75,6 @@ registrationData.add({
 
 
 const address = new schema({
-    userId:{
-        type: mongoose.Schema.Types.ObjectId, 
-    },
     address:{
         type:String,
         require:true
